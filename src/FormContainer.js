@@ -9,7 +9,7 @@ const FormContainer = (props) =>{
     const [experience, setExperience] = useState('')
     const [skills, setSkills] = useState('')
     const [job, setJob] = useState('')
-    const jobs = ['Front end developer', 'Node.js Developer', 'MEAN Stack developer', 'FULL Stack developer']
+    const jobs = ['Front-End Developer', 'Node.js Developer', 'MEAN Stack Developer', 'FULL Stack Developer']
 
     const handleNameChange = (e) => {
         setName(e.target.value)
